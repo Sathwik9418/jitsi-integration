@@ -14,7 +14,7 @@ const JitsiOverlay = ({ roomName, displayName }) => {
       parentNode: jitsiContainerRef.current,
       configOverwrite: { startWithAudioMuted: true },
       interfaceConfigOverwrite: {
-        TOOLBAR_BUTTONS: ['microphone', 'camera', 'hangup'],
+        TOOLBAR_BUTTONS: ['microphone', 'camera', 'chat' , 'hangup'],
       },
       userInfo: { displayName: displayName },
     };
