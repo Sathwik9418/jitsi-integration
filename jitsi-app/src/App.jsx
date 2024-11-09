@@ -34,7 +34,7 @@ const JitsiOverlay = () => {
         enableWelcomePage: false,
       },
       interfaceConfigOverwrite: {
-        TOOLBAR_BUTTONS: ['microphone', 'camera', 'hangup'],  // Limit toolbar buttons
+        TOOLBAR_BUTTONS: ['microphone', 'camera', 'chat' , 'hangup'],  // Limit toolbar buttons
         SHOW_JITSI_WATERMARK: false, 
         SHOW_BRAND_WATERMARK: false, 
         SHOW_WATERMARK_FOR_GUESTS: false, 
